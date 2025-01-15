@@ -1,0 +1,88 @@
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #6B73FF, #000DFF);
+        }
+
+        .login-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            width: 380px;
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .form-content {
+            padding: 30px 40px;
+        }
+
+        .input-group {
+            position: relative;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            color: #4A4A4A;
+            margin-bottom: 8px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px 40px 12px 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #4A90E2;
+        }
+
+        .password-toggle {
+            position: absolute;
+            right: 10px;
+            top: 70%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            width: 20px; /* Lebar gambar */
+            height: 20px; /* Tinggi gambar */
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background: #4A90E2;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #3b78d4;
+        }
