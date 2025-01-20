@@ -3,7 +3,7 @@ const togglePassword = document.querySelector('#toggle-password');
 const password = document.querySelector('#password');
 
 password.type = 'password'; 
-togglePassword.src = 'asset/view.png'; 
+togglePassword.src = '../asset/view.png'; 
 
 togglePassword.addEventListener('click', function () {
 
@@ -11,6 +11,6 @@ togglePassword.addEventListener('click', function () {
     password.type = type;
 
     
-    const newSrc = password.type === 'password' ? 'asset/view.png' : 'asset/hide.png';
+    const newSrc = password.type === 'password' ? '../asset/view.png' : '../asset/hide.png';
     togglePassword.src = newSrc;
 });
